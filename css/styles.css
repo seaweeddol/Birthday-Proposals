@@ -1,0 +1,134 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #c99485;
+}
+
+ul {
+  padding: 0;
+}
+li {
+  text-align: left;
+  list-style-type: none;
+}
+
+.jumbotron {
+    background: #9cc2d5 url(../images/arnel-hasanovic-673679-unsplash.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 742px;
+    font-family: 'Homemade Apple', cursive;
+    color: white;
+    text-shadow: 3px 3px 3px #b26c60;
+    margin-bottom: 0;
+}
+
+.city-thumb {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+.vancouver-thumb {
+  background: url(../images/spencer-watson-447781-unsplash.jpg);
+  background-size: cover;
+}
+
+.LA-thumb {
+  background: url(../images/martin-adams-764547-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.SF-thumb {
+  background: url(../images/oliver-plattner-527165-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+    padding: 20px 0;
+}
+
+.img-van {
+  border-radius: 10%;
+  background: url(../images/spencer-watson-447781-unsplash.jpg);
+  background-size: cover;
+}
+
+.bg-fcd7d0 {
+  background: #fcd7d0;
+  padding: 35px;
+}
+
+.van-bg {
+  background: url(../images/aditya-chinchure-568068-unsplash.jpg);
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+
+.la-bg {
+  background: url(../images/martin-adams-764547-unsplash.jpg);
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+
+.sf-bg {
+  background: url(../images/oliver-plattner-527165-unsplash.jpg);
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+
+.display-1 {
+  font-family: 'Homemade Apple', cursive;
+  color: white;
+  padding: 20rem 2rem;
+  text-shadow: 3px 3px 3px #9dc6da;
+}
+
+.display-4 {
+  color: white;
+}
+
+.thingsToDo {
+  clip-path: circle();
+  width: 450px;
+  height: 450px;
+}
+
+.vancouver-thingToDo1 {
+  background: url(../images/oliver-plattner-527165-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.stanley-park-img {
+  background: url(../images/carlos-blanco-1248026-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.disney-img {
+  background: url(../images/cody-board-782797-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.koreatown-img {
+  background: url(../images/Koreatown-Los-Angeles-2.jpg);
+  background-size: cover;
+}
+
+.capilano-img {
+  background: url(../images/wes-hicks-1113412-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.napavalley-img {
+  background: url(../images/scott-warman-525484-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
