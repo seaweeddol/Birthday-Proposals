@@ -127,8 +127,33 @@ li {
   background-size: cover;
 }
 
-.napavalley-img {
+.wineries-img {
   background: url(../images/scott-warman-525484-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.vandusen-img {
+  background: url(../images/Laburnum-Walk-vandusenPark.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.gastown-img {
+  background: url(../images/8185_HDR_2012-07-16_Gastown_HDR_04_2012-07-16_Gastown_HDR.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.granville-img {
+  background: url(../images/publicmarket_5c99ceae-e761-47ba-92fa-548c5b581ea5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.oxbrow-img {
+  background: url(../images/Oxbow-Public-Market-in-Napa-asavvylifestyle.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.spa-img {
+  background: url(../images/Calistoga_Spa_Hot_Springs_Resort_e1484607432690_739c7a18-6de8-44bb-b1da-20c441dac80e.jpg);
   background-position: center;
   background-size: cover;
 }
