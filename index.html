@@ -11,70 +11,47 @@
 
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Trip Options</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#top">Birthday Trip</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Vancouver
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#vancouver">Vancouver</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Los Angeles
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#losAngeles">Los Angeles</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              San Francisco
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#sanFrancisco">San Francisco</a>
           </li>
         </ul>
       </div>
     </nav>
 
+    <a id="top"></a>
     <div class="jumbotron jumbotron-fluid d-flex align-items-center justify-content-center">
       <div class="container text-center">
-        <h1 class="display-3">Birthday Trip Proposals</h1>
+        <h1 class="display-1">Birthday Trip Proposals</h1>
       </div>
     </div>
 
     <div class="bg-fcd7d0">
       <div class="container">
         <div class="col">
-          <h1 class="display-4 text-center">Quick Stats</h1>
+          <h1 class="display-3 text-center">Quick Stats</h1>
         </div>
         <div class="row text-center">
           <div class="col fixed">
-            <h2>Vancouver</h2>
+            <h1 class="display-5">Vancouver</h1>
           </div>
           <div class="col">
-            <h2>Los Angeles</h2>
+            <h1 class="display-5">Los Angeles</h1>
           </div>
           <div class="col">
-            <h2>San Francisco</h2>
+            <h1 class="display-5">San Francisco</h1>
+            <h3>Napa Valley</h3>
           </div>
         </div>
         <div class="row text-center">
@@ -91,36 +68,31 @@
         <div class="row text-center">
           <div class="col border-right">
             <ul>
-              <li class="text-center">4h by train <i class="fas fa-train"></i></li>
-              <li class="text-center">$136 for travel<i class="fas fa-train"></i></li>
-              <li class="text-center">avg hotel price <i class="fas fa-train"></i></li>
-              <li class="text-center">56° / 43°</li>
-              <li class="text-center">rains avg of 12 days</li>
-              <li class="text-center">avg dinner cost</li>
+              <li class="text-center"><i class="fas fa-train"></i> 4h by train</li>
+              <li class="text-center"><i class="fas fa-dollar-sign"></i> $136 for train fare</li>
+              <li class="text-center"><i class="fas fa-temperature-low"></i> 56° / 43°</li>
             </ul>
           </div>
           <div class="col border-right">
             <ul>
-              <li class="text-center">2h40m by plane <i class="fas fa-plane"></i></li>
-              <li class="text-center">avg hotel price <i class="fas fa-plane"></i></li>
-              <li class="text-center">$360 for travel <i class="fas fa-train"></i></li>
-              <li class="text-center">73° avg high / 55° avg low</li>
-              <li class="text-center">avg dinner cost</li>
+              <li class="text-center"><i class="fas fa-plane"></i> 2h40m by plane</li>
+              <li class="text-center"><i class="fas fa-dollar-sign"></i> $360 for airfare</li>
+              <li class="text-center"><i class="fas fa-temperature-low"></i> 73° / 55°</li>
             </ul>
           </div>
           <div class="col">
             <ul>
-              <li class="text-center">2h10m by plane <i class="fas fa-plane"></i></li>
-              <li class="text-center">avg hotel price <i class="fas fa-plane"></i></li>
-              <li class="text-center">$260 for travel <i class="fas fa-train"></i></li>
-              <li class="text-center">63° / 50°</li>
-              <li class="text-center">avg dinner cost</li>
+              <li class="text-center"><i class="fas fa-plane"></i> 2h10m by plane</li>
+              <li class="text-center"><i class="fas fa-car"></i> then 1h30m drive</li>
+              <li class="text-center"><i class="fas fa-dollar-sign"></i> $260 for airfare</li>
+              <li class="text-center"><i class="fas fa-temperature-low"></i> 63° / 50°</li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
+    <a id="vancouver"></a>
     <div class="van-bg d-flex align-items-center justify-content-center">
       <h1 class="display-1">Vancouver</h1>
     </div>
@@ -147,7 +119,7 @@
 
         <div class="row d-flex align-items-center">
           <div class="col">
-            <h1 class="display-5"><a href="https://granvilleisland.com/">Granville Island</a></h1>
+            <h1 class="display-5">Granville Island</h1>
             <p>The biggest attraction on Granville Island is the Public Market. Housed indoors, there are endless rows of stalls that feature fresh produce, gourmet foods, baked goods, and seafood. For the food-focused, a walking tour of the market can be a great way to get an insider’s insight. Outside of the market, catch a show at one of the many theatres on the island, browse an art gallery show, or appeal to your outdoorsy side with a kayaking or paddleboarding tour.</p>
           </div>
           <div class="col thingsToDo granville-img">
@@ -158,13 +130,14 @@
           <div class="col order-2">
             <h1 class="display-5">VanDusen Botanical Garden</h1>
             <p>VanDusen Botanical Garden is a 55-acre oasis in the heart of Vancouver with over 7,500 plant species and varieties from around the world! Spot and photograph local wildlife, find your way through an Elizabethan hedge maze, unwind in a serene setting, dine on the patios of Truffles Cafe or Shaughnessy Restaurant, or browse the garden-themed gift shop. VanDusen has something for everyone to enjoy!</p>
-                      </div>
+          </div>
           <div class="col thingsToDo vandusen-img">
           </div>
         </div>
       </div>
     </div>
 
+    <a id="losAngeles"></a>
     <div class="la-bg d-flex align-items-center justify-content-center">
       <h1 class="display-1">Los Angeles</h1>
     </div>
@@ -173,26 +146,26 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col">
-            <h1 class="display-5">THING TO DO 1</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1 class="display-5">Santa Monica Pier and Beach</h1>
+            <p>Just west of downtown Los Angeles, Santa Monica contains one of the most legendary beach scenes in the United States. Santa Monica also boasts an abundance of great restaurants and excellent nightlife spots. The 3 miles of shoreline are renowned as some of the best in the area thanks to the soft sands, ideal weather and bevy of attractions. "State Beach," as its known, averages about 340 days of sunshine a year and acted as the backdrop for the popular television series "Baywatch."</p>
           </div>
-          <div class="col thingsToDo capilano-img">
+          <div class="col thingsToDo santaMonica-img">
           </div>
         </div>
 
         <div class="row d-flex align-items-center">
           <div class="col order-2">
-            <h1 class="display-5">The Food</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1 class="display-5">Griffith Observatory</h1>
+            <p>Since its opening in 1935, the Griffith Observatory has become one of L.A.’s great cultural icons. The Observatory is located above Los Feliz on the southern slope of Mt. Hollywood, and offers some of the best views of L.A., from the Pacific Ocean to Downtown. Its stated mission is, “Inspiring everyone to observe, ponder and understand the sky.”</p>
           </div>
-          <div class="col thingsToDo capilano-img">
+          <div class="col thingsToDo griffith-img">
           </div>
         </div>
 
         <div class="row d-flex align-items-center">
           <div class="col">
             <h1 class="display-5">Koreatown</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Koreatown's many bars and casual 24/7 dining makes for a buzzing late-night scene. There are Korean BBQ restaurants with tabletop grills, plus karaoke joints, hip speakeasies and flashy clubs, as well as the landmark Wiltern Theatre, an art deco music venue. K-town’s dense mix of historic buildings and contemporary complexes also features traditional spas, bubble tea cafes and specialty grocery stores.</p>
           </div>
           <div class="col thingsToDo koreatown-img">
           </div>
@@ -201,7 +174,7 @@
         <div class="row d-flex align-items-center">
           <div class="col order-2">
             <h1 class="display-5">Disneyland</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Sail with pirates, explore exotic jungles, meet fairy-tale princesses, and dive under the ocean and rocket through the stars— all in the same day. Combine the magic of Disney with the best that California has to offer and the result is Disney California Adventure, a theme park that celebrates the California in style. When you enter the gates of this park, you are transported to the land of promise, opportunity and glamour. You can ride the Red Car Trolley in 1920s Los Angeles, take a raft down the rapids with a mining company on Grizzly Peak, travel down Route 66 or brave a white knuckled roller coaster in a seaside amusement park. </p>
           </div>
           <div class="col thingsToDo disney-img">
           </div>
@@ -209,6 +182,7 @@
       </div>
     </div>
 
+    <a id="sanFrancisco"></a>
     <div class="sf-bg d-flex align-items-center justify-content-center">
       <h1 class="display-1">San Francisco
         <p class="display-4 text-center">Napa Valley</p>
@@ -228,15 +202,6 @@
 
         <div class="row d-flex align-items-center">
           <div class="col order-2">
-            <h1 class="display-5">Napa Valley</h1>
-            <p>More than 400 wineries dot the fertile soils of Napa Valley, one of the world’s premier viticultural regions and famous for its prized Cabernet Sauvignon. But wine, as visitors quickly discover, is only the beginning. Stay in lavish resorts, charming bed & breakfasts or modern hotels. Find top-rated chefs at scores of restaurants who work alongside the farmers who tend this land. Take a hot air balloon ride or taste the bounty of the valley on a wine tour. Whatever your pleasure, the result is something understated and exceptional. </p>
-          </div>
-          <div class="col thingsToDo napavalley-img">
-          </div>
-        </div>
-
-        <div class="row d-flex align-items-center">
-          <div class="col">
             <h1 class="display-5">Oxbrow Market</h1>
             <p>Located in the vibrant Oxbow District in downtown Napa, Oxbow Public Market is the community gathering place for great food and wine. It's where both locals and visitors connect to explore unique culinary products and gifts, the best in wine and craft beer, and a variety of dining options. It's where you can find local, artisan ingredients — the same ingredients the best Napa Vally restaurants use — from meat to fish, cheese, charcuterie, organic produce, fresh baked goods, olive oil and more. It's where you can enjoy everything from tacos to oysters on the scenic outdoor deck overlooking the Napa River. It's all Oxbow Public Market.</p>
           </div>
@@ -245,7 +210,7 @@
         </div>
 
         <div class="row d-flex align-items-center">
-          <div class="col order-2">
+          <div class="col">
             <h1 class="display-5">Calistoga Spa Hot Springs</h1>
             <p>After you've been wined and dined, it's time to recline. Napa Valley offers a variety of pampering packages, from half-day treatments to full-day spa circuits. Whether it's a facial or a mineral hot springs bath, your pursuit of luxurious excellence begins and ends here in the valley. At the north end of the valley, high volcanic ash content and geothermal hot springs has generated a local specialty: therapeutic and rejuvenating mud and mineral baths. Their mineral waters heat the mud baths, provide natural hot springs pools (with water temperatures between 85-90 degrees), and draw crowds to watch the forceful geysers, one of which still regularly erupts from subterranean pressures.</p>
           </div>

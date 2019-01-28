@@ -1,8 +1,8 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
-  color: #c99485;
+  color: #617E87;
+  font-size: 1.1rem;
 }
-
 ul {
   padding: 0;
 }
@@ -10,7 +10,18 @@ li {
   text-align: left;
   list-style-type: none;
 }
-
+.bg-light {
+    background-color: rgba(143, 190, 213, 0.95)!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #d2e4f8;
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
 .jumbotron {
     background: #9cc2d5 url(../images/arnel-hasanovic-673679-unsplash.jpg);
     background-position: top;
@@ -92,6 +103,14 @@ li {
 .display-4 {
   color: white;
 }
+.display-3, .display-5 {
+  color: #617E87;
+  font-family: 'Homemade Apple', cursive;
+}
+h3 {
+  color: #617E87;
+  font-family: 'Homemade Apple', cursive;
+}
 
 .thingsToDo {
   clip-path: circle();
@@ -154,6 +173,16 @@ li {
 }
 .spa-img {
   background: url(../images/Calistoga_Spa_Hot_Springs_Resort_e1484607432690_739c7a18-6de8-44bb-b1da-20c441dac80e.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.griffith-img {
+  background: url(../images/aayush-tuladhar-613557-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.santaMonica-img {
+  background: url(../images/kevin-fremon-435487-unsplash.jpg);
   background-position: center;
   background-size: cover;
 }
